@@ -1,3 +1,16 @@
+# Instant-News
+## This is a news web application for getting the latest news
+
+**This web application is in PRODUCTION and as this is VERSION-1, another updated Version's are yet to be released.** :pray:
+
+## Built With 
+- REACT
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVASCRIPT
+- NEWS API
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +81,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Authors
+
+👤 Kushal Doshi
+- Github: [@Kushal1402](https://github.com/Kushal1402)
+- Linkedin: [Kushal Doshi](https://www.linkedin.com/in/kushaldoshi1402)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate.
+Feel free to check the [issues page](https://github.com/Kushal1402/Instant-News/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
