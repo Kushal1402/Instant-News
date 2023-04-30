@@ -33,7 +33,7 @@ class News extends Component {
     
     let data = await fetch(url);
     let parsedData = await data.json()
-    console.log('parsedData', parsedData)  
+  
     this.setState({articles : parsedData.articles,
       totalResults : parsedData.totalResults,
       loading:false
@@ -41,7 +41,6 @@ class News extends Component {
   }
   // Lifecycle  
   async componentDidMount(){
-    console.log("Rendered after main Render");
     // For fetch there is an url
     // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=1&pageSize=${this.props.pageSize}`;
     // this.setState({loading: true})
