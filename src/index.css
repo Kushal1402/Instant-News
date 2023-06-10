@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif; 
-  background-color: grey;
-  /* color: aliceblue; */
+  font-family: 'Poppins', sans-serif;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
@@ -11,3 +9,39 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+.header {
+  background-color: #4E61CE;
+  backdrop-filter: blur(3px);
+}
+
+.web-brand {
+  color: white;
+}
+
+.web-heading {
+  color: #4E61CE;
+  font-weight: 700;
+}
+
+.navbar-nav>li>a {
+  color:white !important;
+}
+.nav-link:hover{
+  color: white !important;
+  border-radius: 25px;
+  background: linear-gradient(360deg, rgba(32,30,187,1) 5%, rgba(255,255,255,1) 100%);
+  transition: 2s background-color ease-in-out;
+}
+
+.card{
+  overflow: hidden;
+}
+
+.card-img-top{
+  transition: all 200ms linear;
+}
+
+.card-img-top:hover{
+  transform: scale(1.1);
+}

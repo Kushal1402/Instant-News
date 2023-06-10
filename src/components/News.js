@@ -71,7 +71,9 @@ class News extends Component {
   render() {
     return (
       <div className='container mt-5 mb-3'>
-        <h1 className='text-center pt-2'>Instant News - Top Headlines</h1>
+        <h1 className='text-center pt-4 web-heading'>
+          Trending News | Top Headlines | Latest Updates
+        </h1>
         
         {/* For loading */}
         {this.state.loading && <Spinner />}
@@ -79,9 +81,11 @@ class News extends Component {
         {/* For getting the data by json and maping and then showing to UI */}
         <div className="row">
           {!this.state.loading && this.state.articles.map((element) => {
-            return <div className="col-md-4" key={element.url}> 
-                      <NewsItem title={element.title ? element.title : ""} description={element.description ? element.description.slice(0,81) : ""} urlToImage={element.urlToImage} newsUrl={element.url} />
-                    </div>  
+            return (
+              <div className="col-md-4" key={element.url}> 
+                <NewsItem title={element.title ? element.title : ""} description={element.description ? element.description.slice(0,81) : ""} urlToImage={element.urlToImage} newsUrl={element.url} />
+              </div>
+            )  
           })}         
         </div>
         
