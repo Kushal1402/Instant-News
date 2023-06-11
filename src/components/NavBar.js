@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
-import newsicon from "../components/news-icon.png";
-import homeIcon from "./home-icon.png"
-import businessIcon from "./briefcase-icon.png"
-import entertainmentIcon from "./entertainment-icon.png"
-import healthIcon from "./health-icon.png"
-import scienceIcon from "./science-icon.png"
-import techIcon from "./technology-icon.png"
-import sportIcon from "./basketball-icon.png"
+import newsicon from "../assets/news-icon.png";
+import homeIcon from "../assets/home-icon.png"
+import businessIcon from "../assets/briefcase-icon.png"
+import entertainmentIcon from "../assets/entertainment-icon.png"
+import healthIcon from "../assets/health-icon.png"
+import scienceIcon from "../assets/science-icon.png"
+import techIcon from "../assets/technology-icon.png"
+import sportIcon from "../assets/basketball-icon.png"
 
 
 class NavBar extends Component {

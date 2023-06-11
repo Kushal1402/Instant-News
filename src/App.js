@@ -15,7 +15,7 @@ class App extends Component {
 
           <Routes>
             <Route exact path='/' element={<News key="general" pageSize={6} country="in" category="general" apiKey={this.apiKey}/>} />          
-            <Route exact path='/Buisness' element={<News key="Buisness" pageSize={6} country="in" category="Buisness" apiKey={this.apiKey}/>} />          
+            <Route exact path='/Buisness' element={<News key="Buisness" pageSize={6} country="in" category="business" apiKey={this.apiKey}/>} />          
             <Route exact path='/Entertainment' element={<News key="Entertainment" pageSize={6} country="in" category="Entertainment" apiKey={this.apiKey}/>} />          
             <Route exact path='/Health' element={<News key="Health" pageSize={6} country="in" category="Health" apiKey={this.apiKey}/>} />          
             <Route exact path='/Science' element={<News key="Science" pageSize={6} country="in" category="Science" apiKey={this.apiKey}/>} />          
